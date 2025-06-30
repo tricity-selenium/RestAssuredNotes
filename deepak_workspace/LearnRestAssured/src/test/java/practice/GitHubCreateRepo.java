@@ -10,7 +10,7 @@ public class GitHubCreateRepo {
   @Test
   public void crateRepo() {
 	  
-	  String token = "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";
+	  String token = "ghp_r8o2YDuWK2cqoyNeyl";
 	  
 	  RestAssured.baseURI = "https://api.github.com";
 	  
