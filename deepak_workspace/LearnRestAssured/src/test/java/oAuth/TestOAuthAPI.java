@@ -19,7 +19,7 @@ public class TestOAuthAPI {
 
                 given() .formParams("client_id", "abcd.apps.googleusercontent.com")
 
-                        .formParams("client_secret", "erZOWM9g3UtwNRj340YYaK_W")
+                        .formParams("client_secret", "1234567890")
 
                         .formParams("grant_type", "client_credentials")
 
