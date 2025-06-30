@@ -17,7 +17,7 @@ public class TestOAuthAPI {
 		
 		String response =
 
-                given() .formParams("client_id", "692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com")
+                given() .formParams("client_id", "abcd.apps.googleusercontent.com")
 
                         .formParams("client_secret", "erZOWM9g3UtwNRj340YYaK_W")
 
