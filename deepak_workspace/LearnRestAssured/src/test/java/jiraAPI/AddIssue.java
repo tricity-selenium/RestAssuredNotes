@@ -14,7 +14,7 @@ public class AddIssue {
 		RestAssured.baseURI = "https://tricityselenium-1726504058697.atlassian.net";
 		
 		String addIssueResponse  = given().header("Content-Type", "application/json")
-		.header("Authorization", "Basic dHJpY2l0eS5zZWxlbml1bUBnbWFpbC5jb206QVRBVFQzeEZmR0YwNnZPUzdzWDBHejN1QmhMTnE4TUhFOGVPanJYSTRNS3BLRDlSeVlkXzlLUlAzNlh6Wll6NkxiSmM0dm9LVGd1aEVGcWZHR0JwbUluZmdYLTJRd0h2UG1faWZwa0g1RVg4UkFxNmhqaDR6dlk1M1ZpSTNJYlpMX0I5dVBsWllNRldrYmZ6SjVGRVNXNV95LUlIY25kUjNWZG9VTjJVeExLem1VZlphVVZaMmZrPTRFQzBDODFC")
+		.header("Authorization", "Basic 5jb206QVRBVFQzeEZmR0YwNnZPUzdzWDBHejN1QmhMTnE4TUhFOGVPanJYSTRNS3BLRDlSeVlkXzlLUlAzNlh6Wll6NkxiSmM0dm9LVGd1aEVGcWZHR0JwbUluZmdYLTJRd0h2UG1faWZwa0g1RVg4UkFxNmhqaDR6dlk1M1ZpSTNJYlpMX0I5dVBsWllNRldrYmZ6SjVGRVNXNV95LUlIY25kUjNWZG9VTjJVeExLem1VZlphVVZaMmZrPTRFQzBDODFC")
         .body("{\r\n"
         		+ "    \"fields\": {\r\n"
         		+ "       \"project\":\r\n"
